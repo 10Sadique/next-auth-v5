@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@auth/core':
+    specifier: ^0.20.0
+    version: 0.20.0
   '@auth/drizzle-adapter':
     specifier: ^0.3.14
     version: 0.3.14
@@ -41,9 +44,6 @@ dependencies:
   drizzle-orm:
     specifier: ^0.29.3
     version: 0.29.3(@libsql/client@0.4.0-pre.7)(@types/react@18.2.47)(react@18.2.0)
-  lucide:
-    specifier: ^0.307.0
-    version: 0.307.0
   next:
     specifier: 14.0.4
     version: 14.0.4(react-dom@18.2.0)(react@18.2.0)
@@ -3421,10 +3421,6 @@ packages:
     dependencies:
       es5-ext: 0.10.62
     dev: true
-
-  /lucide@0.307.0:
-    resolution: {integrity: sha512-sXtheSpSq18mO63jgqwBDJS0ZwKM00baFGjm1EgYEzFHJyfmaKuyqzpqgZt2cg0SEk708WhheDjvAH5V6E5VHg==}
-    dev: false
 
   /memoizee@0.4.15:
     resolution: {integrity: sha512-UBWmJpLZd5STPm7PMUlOw/TSy972M+z8gcyQ5veOnSDRREz/0bmpyTfKt3/51DhEBqCZQn1udM/5flcSPYhkdQ==}
