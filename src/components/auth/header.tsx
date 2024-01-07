@@ -5,7 +5,7 @@ const poppins = Poppins({ weight: ["600"], subsets: ["latin"] });
 
 export const Header = ({ label }: { label: string }) => {
   return (
-    <div className="w-full flex flex-col items-center justify-center gap-y-4">
+    <div className="w-full flex flex-col items-center justify-center gap-y-2">
       <h1
         className={cn("text-3xl font-bold text-foreground", poppins.className)}
       >

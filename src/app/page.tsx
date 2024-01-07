@@ -18,7 +18,7 @@ export default function Home() {
           Auth
         </h1>
         <p className="text-lg text-foreground">
-          A simple authentication service with Auth.js
+          A simple authentication service with Auth.js, Drizzle & Turso
         </p>
 
         <div>
